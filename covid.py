@@ -1,5 +1,5 @@
-t = int(input("Enter number of test cases: "));
-for i in range(0, t): 
+n = int(input("Enter number of test cases: "));
+for i in range(0, n): 
     X = [] 
     N = int(input("Enter number of elements : ")) 
     for j in range(0, N): 
