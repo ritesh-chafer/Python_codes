@@ -1,5 +1,5 @@
 from gtts import gTTS #Google Text to Speech API
-import OS
+import os
 text = "My name is Ritesh Prasad Singh"
 language = 'en' #English
 speech = gTTS(text = text, lang = language, slow = False)
