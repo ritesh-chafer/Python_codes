@@ -9,8 +9,7 @@ def get_winner(call):
     else:
         throw = "paper"
     
-    if (throw == "rock" and call == "paper") or (throw == "paper" and call == "scissors") \
-        or (throw == "scissors" and call == "rock")
+    if (throw == "rock" and call == "paper") or (throw == "paper" and call == "scissors") or (throw == "scissors" and call == "rock")
         stats.append('W')
         result = "You won!"
     elif throw == call:
@@ -41,3 +40,20 @@ scissors = tkinter.Button(window, text="Scissors", bg="#ff9999",padx = 10, pady 
 rock = tkinter.Button(window, text="Rock", bg="#ff9999",padx = 10, pady = 5, command= pass_r, width=20)
 paper = tkinter.Button(window, text="Paper", bg="#ff9999",padx = 10, pady = 5, command= pass_p, width=20)
 output = tkinter.Label(widow, width=20, fg="red", text = "What's your call")
+
+scissors.pack(side="left")
+rock.pack(side="left")
+paper.pack(side="left")
+output.pack(side="right")
+window.mainloop()
+
+for i in stats:
+    print(i, end=" ")
+    if stats.count('L') > stats.count('W'):
+        result = "\nYou loose the series."
+    elif stats.count('L') == stats.count('W'):
+        result = "\Series ended in a draw."
+    else:
+        result = "\nYou win the series."
+
+print(result)
