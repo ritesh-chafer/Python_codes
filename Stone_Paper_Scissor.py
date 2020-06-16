@@ -36,7 +36,7 @@ window = tkinter.Tk()
 scissors = tkinter.Button(window, text="Scissors", bg="#ff9999",padx = 10, pady = 5, command= pass_s, width=20)
 rock = tkinter.Button(window, text="Rock", bg="#ff9999",padx = 10, pady = 5, command= pass_r, width=20)
 paper = tkinter.Button(window, text="Paper", bg="#ff9999",padx = 10, pady = 5, command= pass_p, width=20)
-output = tkinter.Label(widow, width=20, fg="red", text = "What's your call")
+output = tkinter.Label(window, width=20, fg="red", text = "What's your call")
 
 scissors.pack(side="left")
 rock.pack(side="left")
