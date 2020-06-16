@@ -33,10 +33,10 @@ def pass_p():
 
 window = tkinter.Tk()
 
-scissors = tkinter.Button(window, text="Scissors", bg="#ff9999",padx = 10, pady = 5, command= pass_s, width=20)
-rock = tkinter.Button(window, text="Rock", bg="#ff9999",padx = 10, pady = 5, command= pass_r, width=20)
-paper = tkinter.Button(window, text="Paper", bg="#ff9999",padx = 10, pady = 5, command= pass_p, width=20)
-output = tkinter.Label(window, width=20, fg="red", text = "What's your call")
+scissors = tkinter.Button(window, text="Scissors", bg="#4864E6",padx = 15, pady = 10, command= pass_s, width=40, height=5)
+rock = tkinter.Button(window, text="Rock", bg="#ff9999",padx = 15, pady = 10, command= pass_r, width=40,height=5)
+paper = tkinter.Button(window, text="Paper", bg="#ff9999",padx = 15, pady = 10, command= pass_p, width=40, height=5)
+output = tkinter.Label(window, fg="black", text = "What's your call",width=40, height=5)
 
 scissors.pack(side="left")
 rock.pack(side="left")
