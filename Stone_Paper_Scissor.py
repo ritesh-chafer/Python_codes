@@ -16,7 +16,7 @@ def get_winner(call):
         stats.append('D')
         result = "It's a draw"
     else:
-        state.append('L')
+        stats.append('L')
         result = "You Lost!"
 
     global output
