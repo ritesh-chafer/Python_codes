@@ -9,7 +9,7 @@ def get_winner(call):
     else:
         throw = "paper"
     
-    if (throw == "rock" and call == "paper") or (throw == "paper" and call == "scissors") or (throw == "scissors" and call == "rock")
+    if (throw == "rock" and call == "paper") or (throw == "paper" and call == "scissors") or (throw == "scissors" and call == "rock"):
         stats.append('W')
         result = "You won!"
     elif throw == call:
@@ -18,9 +18,6 @@ def get_winner(call):
     else:
         state.append('L')
         result = "You Lost!"
-    else:
-        stats.append('L')
-        result = "You lost!"
 
     global output
     output.config(text="Computer did: " + throw + "\n" + result)
