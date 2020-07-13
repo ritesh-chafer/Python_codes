@@ -1,18 +1,11 @@
-f = open("Ritesh.txt","rt")
+# f = open("Demo.txt", "a")
+# a = f.write("Adding new line\n") #returns no. of character written
+# print(a)
+# f.close()
 
-print(f.readlines())   #stores line in form of list
-# print(f.readline())  #Read each line seperatly
-# print(f.readline())
-# print(f.readline())
-# content = f.read()
 
-# for line in f:
-#     print(line, end="")
-
-# content = f.read(3)
-# print(content)
-
-# content = f.read(3)
-# print(content)
-
-f.close( )    #close file
+# Handle read and write both
+f = open("Demo.txt", "r+")
+print(f.read())
+f.write("Thank you")
+f.close()
