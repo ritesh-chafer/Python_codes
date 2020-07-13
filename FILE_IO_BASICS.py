@@ -10,6 +10,8 @@
 
 "x" - Create - Creates the specified file, returns an error if the file exists
 
+#Mode
+
 "t" - Text - Default value. Text mode (default mode)
 
 "b" - Binary - Binary mode (e.g. images)
