@@ -1,4 +1,4 @@
-def funargs(normal,*args):
+def funargs(normal,*args):          #args can named anything like "n"
     print(type(args))   #args are taken as tuple irrespective of the type
     print(normal)
     print(args)
