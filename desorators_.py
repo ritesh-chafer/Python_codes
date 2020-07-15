@@ -17,3 +17,18 @@
 #     func("this")
     
 # executor(print)
+
+def dec1(func1):
+    def nowexec():
+        print("Executing now")
+        func1()
+        print("func1 executed")
+    return nowexec
+
+@dec1
+def who_is_ritesh():
+    print("He is a good boy")
+    
+# who_is_ritesh = dec1(who_is_ritesh)
+
+who_is_ritesh()
