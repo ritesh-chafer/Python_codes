@@ -8,6 +8,9 @@
 #
 
 
+
+
+
 #try:
 #    Hours = int(input("Enter Hours: "))
 #    Rate = int(input("Enter Rate: "))
@@ -19,6 +22,9 @@
 #    print("Pay: ", Pay)
 #except:
 #    print("Please enter numeric digit")
+
+
+
 
 try:
 
