@@ -23,7 +23,7 @@ def dec1(func1):
         print("Executing now")
         func1()
         print("func1 executed")
-    return nowexec
+    return nowexec                 #returns nowexec() function
 
 @dec1
 def who_is_ritesh():
