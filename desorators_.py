@@ -13,7 +13,7 @@
 # a = funcret(1)
 # print(a)
 
-def executor(func):
-    func("this")
+# def executor(func):
+#     func("this")
     
-executor(print)
+# executor(print)
