@@ -4,6 +4,7 @@ def printhar(string):
 def add(a,b):
     return a + b + 5
 
-print(printhar("Hello"))
-o = add(4,6)
-print(o)
+if __name__ == "__main__":
+    print(printhar("Hello"))
+    o = add(4,6)
+    print(o)
