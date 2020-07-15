@@ -5,10 +5,15 @@
 # del function1
 # func2()
 
-def funcret(num):
-    if num == 0:
-        return print
-    if num == 1:
-        return int
-a = funcret(1)
-print(a)
+# def funcret(num):
+#     if num == 0:
+#         return print
+#     if num == 1:
+#         return int
+# a = funcret(1)
+# print(a)
+
+def executor(func):
+    func("this")
+    
+executor(print)
