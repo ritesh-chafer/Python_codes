@@ -21,3 +21,5 @@ print(rohan.name,end=" ")
 print(rohan.role,end=" ")
 print(rohan.no_of_leaves)
 
+print(Employee.no_of_leaves)
+
