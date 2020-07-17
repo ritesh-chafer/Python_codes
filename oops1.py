@@ -3,11 +3,11 @@
 
 # DRY - Do not repeat Yourself(concept of oops)
 
-class Student:
+class Student:                                       # class derivation
     pass
 
-harry = Student()
-marrie = Student()
+harry = Student()                                    # instance of class
+marrie = Student()                                   # instance of class
 
 harry.name = "Harry"
 harry.std = 12
