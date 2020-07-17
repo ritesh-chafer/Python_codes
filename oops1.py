@@ -9,4 +9,8 @@ class Student:
 harry = Student()
 marrie = Student()
 
+harry.name = "Harry"
+harry.std = 12
+harry.section = "A"
+
 print(harry, marrie)
