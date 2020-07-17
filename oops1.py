@@ -12,5 +12,7 @@ marrie = Student()
 harry.name = "Harry"
 harry.std = 12
 harry.section = "A"
+marrie.std = 9
+marrie.subjects = ["maths","physics"]
 
-print(harry, marrie)
+print(marrie.subjects)
