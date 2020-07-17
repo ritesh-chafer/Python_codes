@@ -16,10 +16,12 @@ rohan.role = "Student"
 print(harry.name,end=" ")
 print(harry.role,end=" ")
 print(harry.no_of_leaves)
+print(harry.__dict__)
 
 print(rohan.name,end=" ")
 print(rohan.role,end=" ")
 print(rohan.no_of_leaves)
+print(rohan.__dict__)
 
 print(Employee.no_of_leaves)
 
