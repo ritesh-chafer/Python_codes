@@ -9,7 +9,11 @@ class Employee:
 
     def printdetails(self):
         return f"The Name is {self.name}. Salary is {self.salary} and role is {self.role}"
-
+    
+    @classmethod
+    def change_leaves(cls, newleaves):
+        cls.no_of_leaves = newleaves
+        
 
 harry = Employee("Harry", 255, "Instructor")
 
@@ -17,10 +21,9 @@ harry = Employee("Harry", 255, "Instructor")
 # harry.name = "Harry"
 # harry.salary = 455
 # harry.role = "Instructor"
-#
+
 # rohan.name = "Rohan"
 # rohan.salary = 4554
 # rohan.role = "Student"
 
 print(harry.salary)
-
