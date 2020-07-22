@@ -20,11 +20,16 @@ class Employee:
         # params = string.split("-")
         # return cls(params[0],params[1],params[2])
         return cls(*string.split("-"))
-        
+    
+    @staticmethod
+    def printgood(string):
+        print("This is good", string)
    
 
 harry = Employee("Harry", 255, "Instructor")
 rohan = Employee.from_dash("Rohan-700-Student")
 
 
-print(rohan.salary)
+print(rohan.printgood("Rohan"))
+print(":::::")
+rohan.printgood("Rohan")
