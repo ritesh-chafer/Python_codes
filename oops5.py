@@ -15,8 +15,9 @@ class Employee:
         
     @classmethod
     def from_str(cls, string):                        #constructor
-        params = string.split("-")
-        return cls(params[0],params[1],params[2])
+        # params = string.split("-")
+        # return cls(params[0],params[1],params[2])
+        return cls(*string.split("-"))
         
    
 
