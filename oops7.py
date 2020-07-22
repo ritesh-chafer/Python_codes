@@ -26,7 +26,8 @@ class Employee:
         print("This is good", string)
 
 class Programmer(Employee):
-    pass
+    def printprog(self):
+        return f"The Programmer's name is {self.name}, salary is {self.salary} and role is {self.role}"
 
 harry = Employee("Harry", 255, "Instructor")
 rohan = Employee("Rofhan", 455, "student")
