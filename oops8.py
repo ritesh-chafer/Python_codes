@@ -1,4 +1,4 @@
-# Static method
+# Multiple Inheritence
 
 class Employee:
     no_of_leaves = 8
