@@ -33,9 +33,12 @@ class Player:
     
     def printdetails(self):
         return f"The name is {self.name}. Game is {self.game}"
+    
+class Cool_programmer(Employee, Player):
+    pass
 
 harry = Employee("Harry", 255, "Instructor")
 rohan = Employee("Rofhan", 455, "student")
 ritesh = Player("Ritesh", ["Cricket", "Football", "Chess"])
+sourav = Cool_programmer()
 
-print(ritesh.printdetails())
