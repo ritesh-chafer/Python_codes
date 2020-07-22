@@ -34,3 +34,5 @@ rohan = Employee("Rofhan", 455, "student")
 shubham = Programmer("Shubham", 555, "Programmer")
 rahul = Programmer("Rahul", 700, "Programmer")
 
+print(rahul.printprog())
+
