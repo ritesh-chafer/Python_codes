@@ -44,3 +44,5 @@ print(rahul.printgood("Hello"))
 print(":::::::")
 print(shubham.printprog())
 print(shubham.printdetails())
+print(shubham.printgood("Hi!"))
+
