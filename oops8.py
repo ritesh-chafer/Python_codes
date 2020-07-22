@@ -25,7 +25,8 @@ class Employee:
     def printgood(string):
         print("This is good", string)
 
-
+class Player():
+    pass
 
 harry = Employee("Harry", 255, "Instructor")
 rohan = Employee("Rofhan", 455, "student")
