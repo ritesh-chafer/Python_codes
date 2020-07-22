@@ -1,4 +1,4 @@
-# Multiple Inheritence
+# Multiple Inheritance
 
 class Employee:
     no_of_leaves = 8
