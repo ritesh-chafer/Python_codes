@@ -25,8 +25,12 @@ class Employee:
     def printgood(string):
         print("This is good", string)
 
-class Player():
-    pass
+class Player:
+    no_of_games = 4
+    def __init__(self, pname, pgame):
+        self.name = pname
+        self.game = pgame
+
 
 harry = Employee("Harry", 255, "Instructor")
 rohan = Employee("Rofhan", 455, "student")
