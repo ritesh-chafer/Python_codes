@@ -35,4 +35,4 @@ shubham = Programmer("Shubham", 555, "Programmer")
 rahul = Programmer("Rahul", 700, "Programmer")
 
 print(rahul.printprog())
-
+print(rahul.printdetails())
