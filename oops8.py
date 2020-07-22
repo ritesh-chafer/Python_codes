@@ -38,11 +38,4 @@ rohan = Employee("Rofhan", 455, "student")
 shubham = Programmer("Shubham", 555, "Programmer",["Python"])
 rahul = Programmer("Rahul", 700, "Programmer", ["Python", "C++"])
 
-print(rahul.printprog())
-print(rahul.printdetails())
-print(rahul.printgood("Hello"))
-print(":::::::")
-print(shubham.printprog())
-print(shubham.printdetails())
-print(shubham.printgood("Hi!"))
 
