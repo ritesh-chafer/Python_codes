@@ -29,7 +29,6 @@ class Employee:
 harry = Employee("Harry", 255, "Instructor")
 rohan = Employee.from_dash("Rohan-700-Student")
 
-
 print(rohan.printgood("Rohan"))
 print(":::::")
 rohan.printgood("Rohan")
