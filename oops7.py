@@ -30,5 +30,6 @@ class Programmer(Employee):
 
 harry = Employee("Harry", 255, "Instructor")
 rohan = Employee("Rofhan", 455, "student")
-shubham = Programmer("Shubham", 55, "Programmer")
+shubham = Programmer("Shubham", 555, "Programmer")
+rahul = Programmer("Rahul", 700, "Programmer")
 
