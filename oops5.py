@@ -14,7 +14,7 @@ class Employee:
         cls.no_of_leaves = newleaves
         
     @classmethod
-    def from_str(cls, string):                        
+    def from_str(cls, string):                        #constructor
         params = string.split("-")
         return cls(params[0],params[1],params[2])
         
