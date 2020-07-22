@@ -36,7 +36,7 @@ class Programmer(Employee):
 harry = Employee("Harry", 255, "Instructor")
 rohan = Employee("Rofhan", 455, "student")
 shubham = Programmer("Shubham", 555, "Programmer",["Python"])
-rahul = Programmer("Rahul", 700, "Programmer", ["Python"])
+rahul = Programmer("Rahul", 700, "Programmer", ["Python", "C++"])
 
 print(rahul.printprog())
 print(rahul.printdetails())
