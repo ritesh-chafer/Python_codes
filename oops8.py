@@ -37,3 +37,5 @@ class Player:
 harry = Employee("Harry", 255, "Instructor")
 rohan = Employee("Rofhan", 455, "student")
 ritesh = Player("Ritesh", ["Cricket", "Football", "Chess"])
+
+print(ritesh.printdetails())
