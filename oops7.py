@@ -26,11 +26,12 @@ class Employee:
         print("This is good", string)
 
 class Programmer(Employee):
-    def __init__(self, aname, asalary, arole):
+    def __init__(self, aname, asalary, arole, alaunage):
         super().__init__(aname, asalary, arole)
+        self.languages = alaunage
         
     def printprog(self):
-        return f"The Programmer's name is {self.name}, salary is {self.salary} and role is {self.role}"
+        return f"The Programmer's name is {self.name}, salary is {self.salary} and role is {self.role}. He do programming in {self.languages}"
 
 harry = Employee("Harry", 255, "Instructor")
 rohan = Employee("Rofhan", 455, "student")
