@@ -21,9 +21,7 @@ class Employee:
         # return cls(params[0],params[1],params[2])
         return cls(*string.split("-"))
     
-    @staticmethod
-    def printgood(string):
-        print("This is good", string)
+
 
 class Programmer(Employee):
     def printprog(self):
