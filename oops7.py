@@ -36,3 +36,4 @@ rahul = Programmer("Rahul", 700, "Programmer")
 
 print(rahul.printprog())
 print(rahul.printdetails())
+print(rahul.printgood("Hello"))
