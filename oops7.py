@@ -29,5 +29,6 @@ class Programmer(Employee):
     pass
 
 harry = Employee("Harry", 255, "Instructor")
-rohan = Employee("Rofhan", 500, "student")
+rohan = Employee("Rofhan", 455, "student")
+shubham = Programmer("Shubham", 55, "Programmer")
 
