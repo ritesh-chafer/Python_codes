@@ -30,7 +30,10 @@ class Player:
     def __init__(self, pname, pgame):
         self.name = pname
         self.game = pgame
-
+    
+    def printdetails(self):
+        return f"The name is {self.name}. Game is {self.game}"
 
 harry = Employee("Harry", 255, "Instructor")
 rohan = Employee("Rofhan", 455, "student")
+ritesh = Player("Ritesh", ["Cricket", "Football", "Chess"])
