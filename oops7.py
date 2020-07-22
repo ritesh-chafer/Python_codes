@@ -26,13 +26,16 @@ class Employee:
         print("This is good", string)
 
 class Programmer(Employee):
+    def __init__(self, aname, asalary, arole):
+        super().__init__(aname, asalary, arole)
+        
     def printprog(self):
         return f"The Programmer's name is {self.name}, salary is {self.salary} and role is {self.role}"
 
 harry = Employee("Harry", 255, "Instructor")
 rohan = Employee("Rofhan", 455, "student")
-shubham = Programmer("Shubham", 555, "Programmer")
-rahul = Programmer("Rahul", 700, "Programmer")
+shubham = Programmer("Shubham", 555, "Programmer",["Python"])
+rahul = Programmer("Rahul", 700, "Programmer", ["Python"])
 
 print(rahul.printprog())
 print(rahul.printdetails())
