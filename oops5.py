@@ -14,7 +14,7 @@ class Employee:
         cls.no_of_leaves = newleaves
         
     @classmethod
-    def from_str(cls, string):                        #constructor
+    def from_dash(cls, string):                        #constructor
         # params = string.split("-")
         # return cls(params[0],params[1],params[2])
         return cls(*string.split("-"))
@@ -22,7 +22,7 @@ class Employee:
    
 
 harry = Employee("Harry", 255, "Instructor")
-rohan = Employee.from_str("Rohan-700-Student")
+rohan = Employee.from_dash("Rohan-700-Student")
 
 # rohan = Employee()
 # harry.name = "Harry"
