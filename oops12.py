@@ -7,6 +7,9 @@ class A:
         
 class B(A):
     classvar1 = "I am in class B"
+    def __init__(self):
+        self.var1 = "I am insde clas B's constructor"
+        self.classvar1 = "Instance variable in class B"
     
     
 a = A()
