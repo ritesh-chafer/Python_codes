@@ -12,6 +12,7 @@ class B(A):
         self.var1 = "I am insde clas B's constructor"
         self.classvar1 = "Instance variable in class B"
         super().__init__()
+        print(super().classvar1)
 
     
     
