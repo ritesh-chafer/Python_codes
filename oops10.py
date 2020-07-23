@@ -2,9 +2,9 @@
 
 class Employee:
     no_of_leaves = 8
-    var = 8                            # Public variable (Simple nomenclature)
-    _protected_var = 9                 # Protected variable (starts with a underscore "_")
-    __private_var = 10                 # Private variable (starts with double underscore "__")
+    var = 8                            # Public variable (Simple nomenclature)  Any class can acess this
+    _protected_var = 9                 # Protected variable (starts with a underscore "_")  Only derived vclass can access this
+    __private_var = 10                 # Private variable (starts with double underscore "__")   No one can access excpet the parent class
 
     def __init__(self, aname, asalary, arole):
         self.name = aname
