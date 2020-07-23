@@ -6,7 +6,7 @@ class A:
         self.classvar1 = "Instance variable in class A"
         
 class B(A):
-    classvar2 = "I am in class B"
+    classvar1 = "I am in class B"
     
     
 a = A()
