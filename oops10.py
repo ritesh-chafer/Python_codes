@@ -27,4 +27,4 @@ class Employee:
     def printgood(string):
         print("This is good", string)
 
-
+emp = Employee("Harry", 455, "Instructor")
