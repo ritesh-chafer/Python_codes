@@ -2,6 +2,7 @@
 
 class Employee:
     no_of_leaves = 8
+    var = 8                            # Public variable
 
     def __init__(self, aname, asalary, arole):
         self.name = aname
