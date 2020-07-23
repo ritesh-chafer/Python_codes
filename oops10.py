@@ -3,7 +3,8 @@
 class Employee:
     no_of_leaves = 8
     var = 8                            # Public variable
-    _protected_var =9
+    _protected_var = 9
+    __private_var = 10
 
     def __init__(self, aname, asalary, arole):
         self.name = aname
