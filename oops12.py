@@ -4,6 +4,7 @@ class A:
     def __init__(self):
         self.var1 = "I am insde clas A's constructor"
         self.classvar1 = "Instance variable in class A"
+        self.special = "special"
         
 class B(A):
     classvar1 = "I am in class B"
