@@ -30,3 +30,4 @@ class Employee:
 
 emp = Employee("Harry", 455, "Instructor")
 print(emp._protected_var)
+print(emp._Employee__private_var)                  # To print private variable we add "_EMployee" or "_classname"
