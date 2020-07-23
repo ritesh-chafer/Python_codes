@@ -2,9 +2,9 @@
 
 class Employee:
     no_of_leaves = 8
-    var = 8                            # Public variable
-    _protected_var = 9                 # Protected variable
-    __private_var = 10                 # Private variable
+    var = 8                            # Public variable(Simple nomenclature)
+    _protected_var = 9                 # Protected variable(starts with a underscore "_")
+    __private_var = 10                 # Private variable(starts with double underscore "__")
 
     def __init__(self, aname, asalary, arole):
         self.name = aname
