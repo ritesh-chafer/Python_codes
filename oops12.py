@@ -18,5 +18,5 @@ class B(A):
     
 a = A()
 b = B()
-
+print()
 print(b.special, b.var1, b.classvar1)
