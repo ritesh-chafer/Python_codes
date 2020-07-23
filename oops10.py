@@ -28,3 +28,4 @@ class Employee:
         print("This is good", string)
 
 emp = Employee("Harry", 455, "Instructor")
+print(emp._protected_var)
