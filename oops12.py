@@ -16,4 +16,4 @@ class B(A):
 a = A()
 b = B()
 
-print(b.classvar1)
+print(b.special)
