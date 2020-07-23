@@ -4,7 +4,7 @@ class Employee:
     no_of_leaves = 8
     var = 8                            # Public variable
     _protected_var = 9                 # Protected variable
-    __private_var = 10
+    __private_var = 10                 # Private variable
 
     def __init__(self, aname, asalary, arole):
         self.name = aname
