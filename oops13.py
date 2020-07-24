@@ -1,7 +1,8 @@
 # Diamond shape problem in inheritance = Which method is used by which class 
 
 class A:
-    pass
+    def met(self):
+        print("This is method from class A")
 
 class B(A):
     pass
