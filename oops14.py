@@ -1,5 +1,5 @@
 # Operator Overloading and Dunder method
-# Method starting with "__" and ending with "__" is known as dunder method e.g., "__init__ "(known as dunter init)
+# Method starting with "__" and ending with "__" is known as dunder method e.g., "__init__ "(known as dunter init) and helps in operator overloading
 
 class Employee:
     no_of_leaves = 8
