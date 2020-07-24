@@ -15,3 +15,5 @@ class Employee:
     @classmethod
     def change_leaves(cls, newleaves):
         cls.no_of_leaves = newleaves
+        
+emp1 = Employee("Harry", 777, "Programmer")
