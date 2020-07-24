@@ -13,7 +13,7 @@ class C(A):
 class D(B,C):
     pass
 
-a =
-b = 
-c = 
-d = 
+a = A()
+b = B()
+c = C()
+d = D()
