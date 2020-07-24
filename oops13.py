@@ -12,3 +12,8 @@ class C(A):
 
 class D(B,C):
     pass
+
+a =
+b = 
+c = 
+d = 
