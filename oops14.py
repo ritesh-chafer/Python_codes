@@ -18,8 +18,11 @@ class Employee:
     
     def __add__(self, other):
         return self.salary + other.salary
+    
+    def __truediv__(self, other):
+        return self.salary / other.salary
         
 emp1 = Employee("Harry", 777, "Programmer")
 emp2 = Employee("Ritesh", 545, "Learner")
 
-print(emp1 + emp2)
+print(emp1 / emp2)
