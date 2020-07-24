@@ -5,13 +5,16 @@ class A:
         print("This is method from class A")
 
 class B(A):
-    pass
+    def met(self):
+        print("This is method from class B")
 
 class C(A):
-    pass
+    def met(self):
+        print("This is method from class C")
 
 class D(B,C):
-    pass
+    def met(self):
+        print("This is method from class D")
 
 a = A()
 b = B()
