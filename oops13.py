@@ -1,0 +1,1 @@
+# Diamond shape problem in inheritance
