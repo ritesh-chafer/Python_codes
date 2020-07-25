@@ -1,5 +1,12 @@
 # abstract base class
 
+from abc import ABCMeta, abstractmethod
+
+class Shape:
+    @abstractmethod
+    def printarea(self):
+        return 0
+        
 class Rectangle:
     type = "Rectangle"
     sides = 4
