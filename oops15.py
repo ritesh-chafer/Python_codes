@@ -15,7 +15,7 @@ class Rectangle(Shape):
         self.length = 6
         self.breadth = 4
             
-    # def printarea(self):
-    #     return self.length * self.breadth
+    def printarea(self):
+        return self.length * self.breadth
     
 r = Rectangle()
