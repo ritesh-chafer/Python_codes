@@ -7,7 +7,7 @@ class Shape(metaclass = ABCMeta):
     def printarea(self):
         return 0
         
-class Rectangle:
+class Rectangle(Shape):
     type = "Rectangle"
     sides = 4
     
