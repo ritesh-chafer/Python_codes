@@ -1,4 +1,4 @@
-# abstract base class
+# abstract base class( can't create object with base class)
 
 from abc import ABC, abstractmethod
 
