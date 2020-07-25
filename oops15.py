@@ -1,8 +1,8 @@
 # abstract base class
 
-from abc import ABCMeta, abstractmethod
+from abc import ABC, abstractmethod
 
-class Shape(metaclass = ABCMeta):
+class Shape(ABC):
     @abstractmethod
     def printarea(self):
         return 0
