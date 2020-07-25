@@ -2,7 +2,7 @@
 
 from abc import ABCMeta, abstractmethod
 
-class Shape:
+class Shape(metaclass = ABCMeta):
     @abstractmethod
     def printarea(self):
         return 0
@@ -15,7 +15,7 @@ class Rectangle:
         self.length = 6
         self.breadth = 4
             
-    def printarea(self):
-        return self.length * self.breadth
+    # def printarea(self):
+    #     return self.length * self.breadth
     
 r = Rectangle()
