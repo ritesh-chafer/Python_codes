@@ -19,3 +19,4 @@ class Rectangle(Shape):
         return self.length * self.breadth
     
 r = Rectangle()
+print(r.printarea())
