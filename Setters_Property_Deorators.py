@@ -39,5 +39,7 @@ E1.email = "this.that@chafer.com"
 
 del E1.email
 
+print(E1.email)
 
+E1.email = "Harry.Perry@chafer.com"
 print(E1.email)
