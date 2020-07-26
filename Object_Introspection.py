@@ -32,11 +32,14 @@ class Employee:
 skillf = Employee("Skill", "F_")
 
 # print(skillf.email)
-print(type(skillf))
-print(id(skillf))
+# print(type(skillf))
+# print(id(skillf))
 
-x = "This is a string"
-print(id("This is a string"))
-print(dir(x))
-print(dir(skillf))
-print(id(x))
+# x = "This is a string"
+# print(id("This is a string"))
+# print(dir(x))
+# print(dir(skillf))
+# print(id(x))
+
+import inspect
+print(inspect.getmembers(skillf))
