@@ -38,3 +38,5 @@ print(id(skillf))
 x = "This is a string"
 print(id("This is a string"))
 print(dir(x))
+print(dir(skillf))
+print(id(x))
