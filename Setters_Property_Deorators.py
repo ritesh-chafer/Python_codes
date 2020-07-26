@@ -12,7 +12,11 @@ class Employee:
     def email(self):
         return f"{self.fname}.{self.lname}@chafer.com"
     
-    
+    @email.setter
+    def email(self, string):
+        names = string.split("@")[0]
+        self.fname = names.split(".")[0]
+        self.lname = names.split(".")[1]
     
 E1 = Employee("Rahul", "Singh")
 E2 = Employee("Raj", "Kapoor")
