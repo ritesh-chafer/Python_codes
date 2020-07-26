@@ -10,7 +10,7 @@ class Employee:
     def printemail(self):
         pass
     
-E1 = Employee("Rahul", "Singh")
+E1 = Employee("Mayank", "Singh")
 E2 = Employee("Raj", "Kapoor")
 
 print(E1.email)
