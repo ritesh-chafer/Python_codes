@@ -34,4 +34,7 @@ skillf = Employee("Skill", "F_")
 # print(skillf.email)
 print(type(skillf))
 print(id(skillf))
+
+x = "This is a string"
 print(id("This is a string"))
+print(dir(x))
