@@ -1,7 +1,5 @@
 # Object Introspection
 
-# Setters & Property Decorators
-
 class Employee:
     def __init__(self, f_name, l_name):
         self.fname = f_name
