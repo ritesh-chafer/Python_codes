@@ -10,7 +10,11 @@ def gen(n):
         yield i
         
 g = gen(4)
-print(g.__next__())
-print(g.__next__())
+# print(g.__next__())
+# print(g.__next__())
 
+h = "programmmer"
+ier = iter(h)
+print(ier.__next__())
+print(ier.__next__())
 
