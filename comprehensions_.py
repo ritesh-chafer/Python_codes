@@ -9,5 +9,5 @@
 
 # print(ls)
 
-dict = {i:f"item{i}" for i in range(100)}
+dict = {i:f"item{i}" for i in range(1000) if i%100==0}
 print(dict)
