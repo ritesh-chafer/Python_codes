@@ -17,4 +17,5 @@ h = "programmmer"
 ier = iter(h)
 print(ier.__next__())
 print(ier.__next__())
+print(ier.__next__())
 
