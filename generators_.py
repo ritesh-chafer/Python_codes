@@ -5,5 +5,9 @@ Iteration =>
 
 """
 
-for i in range(80):
-    print(i)
+def gen(n):
+    for i in range(n):
+        yield i
+        
+g = gen(20)
+print(g)
