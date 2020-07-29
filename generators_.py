@@ -9,5 +9,8 @@ def gen(n):
     for i in range(n):
         yield i
         
-g = gen(20)
-print(g)
+g = gen(4)
+print(g.__next__())
+print(g.__next__())
+
+
