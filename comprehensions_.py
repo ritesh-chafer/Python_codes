@@ -10,4 +10,5 @@
 # print(ls)
 
 dict = { i:f"Item{i}" for i in range(5) }
-print(dict)
+dict1 = { value:key for key,value in dict.items() }
+print(dict, "\n", dict1)
