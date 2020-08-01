@@ -20,12 +20,12 @@
 
 
 
-def temperature_conversion(n):
-    inp = (input("Enter temperature in Celsius: "))
-    try:
-        Celsius = float(inp)
-        Fahrenheit = (Celsius * (9 / 5)) + 32
-        print("Converted temperature in Fahrenhiet: ", Fahrenheit)
-    except:
-        print("Enter a number")
-temperature_conversion("Celsius")
+#def temperature_conversion(n):
+#    inp = (input("Enter temperature in Celsius: "))
+#    try:
+#        Celsius = float(inp)
+#        Fahrenheit = (Celsius * (9 / 5)) + 32
+#        print("Converted temperature in Fahrenhiet: ", Fahrenheit)
+#    except:
+#        print("Enter a number")
+#temperature_conversion("Celsius")
