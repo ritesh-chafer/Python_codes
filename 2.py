@@ -11,12 +11,12 @@
 
 
 
-width = int(input("Width = "))
-height = float(input("height = "))
-print("1. ", width // 2)
-print("2. ", width / 2.0)
-print("3. ", height / 3)
-print("4. ", (1 + (2 * 5)))
+#width = int(input("Width = "))
+#height = float(input("height = "))
+#print("1. ", width // 2)
+#print("2. ", width / 2.0)
+#print("3. ", height / 3)
+#print("4. ", (1 + (2 * 5)))
 
 
 
