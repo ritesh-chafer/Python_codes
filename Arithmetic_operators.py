@@ -1,4 +1,4 @@
-a, b, c = 10, 5, 2
+a, b, c = 10, 6, 7
 
 print("Sum=",(a+b))                 # Addition
 print("Difference=",(a-b))          # Subtraction
