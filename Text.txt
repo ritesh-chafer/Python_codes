@@ -305,7 +305,7 @@ and far more intricate than Python.  So very few programmers ever write
 machine language.  Instead we build various translators to allow
 programmers to write in high-level languages like Python or JavaScript
 and these translators convert the programs to machine language for actual
-execution by the CPU.
+execution by the CPU. 
 
 Since machine language is tied to the computer hardware, machine language
 is not portable across different types of hardware.  Programs written in 
