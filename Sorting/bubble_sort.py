@@ -1,7 +1,7 @@
 def bubble_sort(array):
     n = len(array)
 
-    for i in range(n):
+    for i in range(n-1):
         # Create a flag that will allow the function to
         # terminate early if there's nothing left to sort
         already_sorted = True
@@ -29,6 +29,6 @@ def bubble_sort(array):
 
     return array
 
-array_list = [2,4,5,3,2,1,0,10,4,3]
+array_list = [2,4,5,3,2,1,0,10,4,3,1,2]
 
 print((bubble_sort(array_list)))
