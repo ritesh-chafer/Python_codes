@@ -26,3 +26,6 @@ def quicksort(array):
     # The final result combines the sorted `low` list
     # with the `same` list and the sorted `high` list
     return quicksort(low) + same + quicksort(high)
+
+a = [0,4,2,3,1,1,5,6]
+print(quicksort(array=a))
