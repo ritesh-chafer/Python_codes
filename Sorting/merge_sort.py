@@ -37,3 +37,13 @@ def merge(left, right):
             break
 
     return result
+
+def merge_sort(array):
+    if len(array)<2:
+        return array
+    midpoint = len(array) // 2
+    return merge(left=merge_sort(array[:midpoint]),
+                right=merge_sort(array[midpoint:]))
+
+a = [9,7,8,4,5,6,0,1,4,0,6]
+print(merge_sort(a))
