@@ -1,7 +1,5 @@
 # FILE Io BASICS
-
 """
-
 "r" - Read - Default value. Opens a file for reading, error if the file does not exist ( default mode)
 
 "a" - Append - Opens a file for appending, creates the file if it does not exist
@@ -16,6 +14,5 @@
 
 "b" - Binary - Binary mode (e.g. images)
 
-"+"- read and write
-
+"+" - read and write
 """

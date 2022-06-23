@@ -34,3 +34,5 @@ rohan = Employee.from_dash("Rohan-700-Student")
 # rohan.role = "Student"
 
 print(rohan.salary)
+x = rohan.printdetails
+print(x)

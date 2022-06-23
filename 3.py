@@ -27,9 +27,7 @@
 
 
 try:
-
     n = float(input("Enter score: "))
-
     if n >= 0.9:
         print("A")
     elif n >= 0.8:

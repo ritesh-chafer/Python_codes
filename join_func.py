@@ -1,4 +1,4 @@
-lis = ["Probability", "statistics","Calculus","Algebra"]
+lis = ["Probability", "statistics", "Calculus", "Algebra"]
 
 # for items in lis:
 #     print(items, "and ",end="")
